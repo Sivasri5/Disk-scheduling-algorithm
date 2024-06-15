@@ -1,0 +1,123 @@
+/* Reset some default browser styles */
+body, h1, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Set basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;  /* Dark background */
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Style the header */
+.header {
+    background-color: #1f1f1f;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    color: #e0e0e0;
+}
+
+.header b {
+    color: #e0e0e0;
+    font-size: 2em;
+}
+
+/* Style the content area */
+.visualizer {
+    width: 100%;
+    padding: 20px;
+}
+
+.tm-timeline-item-inner {
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.tm-bg-dark {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.tm-bg-dark-light {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.tm-text-orange {
+    color: #FFA726;
+}
+
+.tm-font-400 {
+    font-weight: 400;
+}
+
+/* Style the form elements */
+.form-container-res, .form-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    color: #e0e0e0;
+}
+
+.form-control {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    border: 1px solid #53f9ff;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form-control::placeholder {
+    color: #888;
+}
+
+.center-run {
+    text-align: center;
+}
+
+.btn {
+    background-color: #2fffe3;
+    color: #0e0d0d;
+    border: 1px solid #6effff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #51fff0;
+    color: #0e0b0b;
+}
+
+.scan-output-man {
+    background-color: #fdffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(253, 253, 253);
+    color: #0e0d0d;
+}
+
+.tm-timeline-connector-vertical {
+    border-left: 2px solid #FFA726;
+    height: 100px;
+    margin: 0 auto;
+}
